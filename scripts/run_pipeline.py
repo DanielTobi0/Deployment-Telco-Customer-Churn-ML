@@ -10,7 +10,6 @@ import argparse
 import pandas as pd
 import mlflow
 import mlflow.sklearn
-from posthog import project_root
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import (
     classification_report, precision_score, recall_score,
